@@ -25,14 +25,14 @@
   </dependencies>
  <distributionManagement>
     <repository>
-      <id>my-releases</id>
-      <name>my-releases</name>
-      <url>http://ec2-18-222-6-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+      <id>devops-releases</id>
+      <name>devops-releases</name>
+      <url>http://ec2-18-222-6-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>my-snapshots</id>
-      <name>my-snapshots</name>
-      <url>http://ec2-18-222-6-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+      <id>devops-snapshots</id>
+      <name>devops-snapshots</name>
+      <url>http://ec2-18-222-6-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
